@@ -1,0 +1,16 @@
+{
+  "name": "testmodules2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/testimports-from-cjs-to-cjs-js.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
